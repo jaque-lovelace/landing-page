@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Advocacia & Advocacia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7f51e42b46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="shortcut icon" type="image/icon" href="imagens/icon.png" class="favicon">
+</head>
+
+<body>
+
+    <header>
+        <img class="cabecalho" src="./imagens/header5.svg"
+            alt="balança simbolizando a justiça em cima de uma mesa onde se vê um laptop e as mãos de duas pessoas">
+    </header>
+    <section>
+        <div class="sobre">
+
+            <div class="texto-inicial">
+                <h1>Advocacia & Advocacia</h1>
+                <div>
+                    <p>Bem-vindo à página do nosso escritório! <br>
+
+                        Com mais de 20 anos de experiência, nossa equipe de advogados e advogadas dedicam-se a prestar
+                        serviços jurídicos de alta qualidade, buscando sempre os melhores resultados para nossos
+                        clientes.
+
+                        Em nosso escritório, compreendemos que questões relacionadas a Previdência Social, Trabalho e
+                        Família podem ser muito complexas e sensíveis, por isso, adotamos uma abordagem pessoal e
+                        personalizada para cada
+                        caso.
+                        Nossa equipe é formada por profissionais altamente qualificados, que utilizam suas habilidades e
+                        conhecimentos para ajudar nossos clientes a alcançar seus objetivos e resolver seus problemas
+                        legais.
+                    </p>
+
+                    <p>Em nosso escritório, estamos comprometidos em fornecer serviços jurídicos de alta qualidade e
+                        personalizados para cada cliente. Nós nos esforçamos para construir relações de confiança e
+                        respeito
+                        mútuo com
+                        nossos clientes, para que possamos trabalhar juntos em busca dos melhores resultados possíveis.
+                        Entre
+                        em
+                        contato conosco para agendar uma consulta e descobrir como podemos ajudá-lo em seus assuntos
+                        legais.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#collapseOne">
+                <i class="fas fa-gavel"></i>
+                Direito Previdenciário
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <p>A Previdência Social é um assunto muito importante para todos os trabalhadores. Entendemos
+                        que a legislação previdenciária é complexa e está em constante mudança, o que pode tornar
+                        difícil para os trabalhadores entenderem seus direitos e benefícios. Em nosso escritório,
+                        oferecemos orientação legal completa sobre os benefícios previdenciários, tais como
+                        aposentadorias, pensões, auxílios, entre outros.
+                        <br>
+                        Nós atuamos nas questões relacionadas com o INSS, aposentadoria por idade e tempo de
+                        contribuições, benefícios por incapacidade, pensão por morte, salário-maternidade, BPC-LOAS
+                        e demais benefícios da Previdência Social.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#collapseTwo">
+                <i class="fas fa-briefcase"></i>
+                Direito do Trabalho
+            </div>
+            <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <p>O Direito do Trabalho é uma área do direito que trata das relações entre empregados e
+                        empregadores. Nosso escritório está comprometido em ajudar nossos clientes a proteger seus
+                        direitos trabalhistas, tais como questões relacionadas a salário, horas extras, férias,
+                        rescisão contratual, assédio moral, entre outras.
+                        Responsável por regular a relação entre trabalhadores e empregadores, baseado nos princípios
+                        e leis trabalhistas. Importante para garantir o sustento do trabalhador, sua proteção e
+                        segurança.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#collapseThree">
+                <i class="fas fa-heart"></i>
+                Direito de Família
+            </div>
+            <div id="collapseThree" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <p>Questões familiares podem ser muito difíceis e emocionais. Nós compreendemos as preocupações
+                        e necessidades de nossos clientes em relação a questões familiares, tais como divórcio,
+                        pensão alimentícia, guarda de filhos, inventários, entre outras. Nossa equipe está
+                        comprometida em ajudar nossos clientes a encontrar as melhores soluções para suas
+                        necessidades e objetivos.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-atendimento">
+
+        <form id="form">
+            <h1>Agende o seu atendimento aqui</h1>
+            <div class="form-group">
+                <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome" minlength="3"
+                    required>
+                <span class="mensagem-erro"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail" minlength="4"
+                    required>
+                <span class="mensagem-erro"></span>
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control" id="fone" placeholder="Digite seu telefone" required>
+                <span class="mensagem-erro"></span>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite a sua mensagem"></textarea>
+            </div>
+            <button id="myButton" type="submit" class="btn btn-primary">Enviar</button>
+            <span class="mensagem-erro"></span>
+        </form>
+    </div>
+    <a class="a-atendimento-whatsapp" href="https://api.whatsapp.com/send?phone=SEUNUMEROAQUI" target="_blank">
+        <img class="img-fale-agora" src="./imagens/fale-agora2.svg" alt="Fale agora pelo WhatsApp">
+    </a>
+
+
+    <footer>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h4>Contato</h4>
+                    <p>Telefone: (11) 9999-9999</p>
+                    <p>Email: contato@meusite.com.br</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Redes Sociais</h4>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Endereço</h4>
+                    <p>Rua dos Advogados, 1255, Centro, Cidade da Lei - SP </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSB6T0"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+<script src="landing.js"></script>
+
+</html>
